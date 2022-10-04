@@ -1,6 +1,6 @@
 # Zimmer Marketing SvelteKit static blog starter for wordpress sites
 
-This repo is ready fresh starting point for headless wordpress sites, It has js assests to fetch posts with both graphql and rest api.
+This repo is a fresh starting point for headless wordpress sites, It has js assests to fetch posts with both graphql and rest api.
 
 # Pre Installed Dependencies.
 
