@@ -1,0 +1,85 @@
+{
+    "siteTitle": {
+        "title" : "Zimmer Marketing Development Site"
+    },
+    "siteHours":[
+        {
+            "day": "Mon-Tue",
+            "hours": "Closed"
+        },
+        {
+            "day": "Wed-Th",
+            "hours": "11:00 a.m. - 8:00 p.m."
+        },
+        {
+            "day": "FRI-SAT",
+            "hours": "11:00 a.m. - 9:00 p.m."
+        },
+        {
+            "day": "SUNDAY",
+            "hours": "11:00 a.m. - 5:00 p.m."
+        }
+    ],
+    "phone":{
+        "number": "Phone Number Here"
+    },
+    "siteIcon":{
+        "image": "/images/hot-stone-pizzeria-logo-2.svg"
+    },
+    "siteDescription": {
+        "title": "Web  Site By Zimmer Marketing Development"
+    },
+
+    "siteURL":{
+    
+        "title": "https://zimmermarketing.com"
+    },
+    "siteLink":{
+        "title": "https://zimmermarketing.com"
+    },
+    "siteAuthor":{
+        "title": "Website developed By Zimmer Marketing"
+    },
+    "postsPerPage":{
+        "number": 10
+    },
+    "wpGraphqlEndpoint":{
+        "url": "https://wp.bigdog979.com/graphql"
+    },
+    "wpDomain" :{
+        "url": "/wp.bigdog979.com"
+    },
+    
+    "navItems": [
+        {
+            "title":"Home",
+            "route": "/"
+        },
+        {
+            "title":"About",
+            "route": "/about"
+        },
+        {
+            "title":"Contact",
+            "route": "/contact"
+        },
+        {
+            "title":"Testimonials",
+            "route": "/testimonials"
+        },
+        {
+            "title":"Faq",
+            "route":  "/faq"
+        },
+        {
+            "title":"Order Online",
+            "route": "/order-online"
+        },
+        {
+            "title":"Latest News",
+            "route": "/blog"
+        }
+    ]
+
+
+}
