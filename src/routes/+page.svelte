@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>{siteTitle}</title>
+	<title>{siteTitle.title}</title>
 </svelte:head>
 
 <div>
