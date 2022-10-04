@@ -63,20 +63,9 @@
             "title":"Contact",
             "route": "/contact"
         },
+       
         {
-            "title":"Testimonials",
-            "route": "/testimonials"
-        },
-        {
-            "title":"Faq",
-            "route":  "/faq"
-        },
-        {
-            "title":"Order Online",
-            "route": "/order-online"
-        },
-        {
-            "title":"Latest News",
+            "title":"Blog",
             "route": "/blog"
         }
     ]
