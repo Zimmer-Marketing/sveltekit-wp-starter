@@ -3,10 +3,10 @@ const wpRestApi = async (endpointId) => {
   let endpoint = "";
   switch (endpointId) {
     case "localNewsPosts":
-      endpoint = "https://newstalkkzrg.com/wp-json/kzrg/v1/news-posts";
+      endpoint = "Your Endpoint here";
       break;
     case "blabPosts":
-      endpoint = 'https://wp.bigdog979.com/wp-json/kxdg/v1/blab';
+      endpoint = 'Your endpoint here';
       break;
   }
 

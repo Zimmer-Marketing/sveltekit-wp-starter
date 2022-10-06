@@ -24,7 +24,7 @@
         "number": "Phone Number Here"
     },
     "siteIcon":{
-        "image": "/images/hot-stone-pizzeria-logo-2.svg"
+        "image": "/images"
     },
     "siteDescription": {
         "title": "Web  Site By Zimmer Marketing Development"
@@ -44,10 +44,10 @@
         "number": 10
     },
     "wpGraphqlEndpoint":{
-        "url": "https://wp.bigdog979.com/graphql"
+        "url": "your endpoint here"
     },
     "wpDomain" :{
-        "url": "/wp.bigdog979.com"
+        "url": "your domain here"
     },
     
     "navItems": [
