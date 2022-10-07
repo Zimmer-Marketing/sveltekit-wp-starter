@@ -1,24 +1,11 @@
+
+
 {
     "siteTitle": {
         "title" : "Zimmer Marketing Development Site"
     },
     "siteHours":[
-        {
-            "day": "Mon-Tue",
-            "hours": "Closed"
-        },
-        {
-            "day": "Wed-Th",
-            "hours": "11:00 a.m. - 8:00 p.m."
-        },
-        {
-            "day": "FRI-SAT",
-            "hours": "11:00 a.m. - 9:00 p.m."
-        },
-        {
-            "day": "SUNDAY",
-            "hours": "11:00 a.m. - 5:00 p.m."
-        }
+        {"dy":"Monday", "hr":"9:00am - 5:00pm"}
     ],
     "phone":{
         "number": "Phone Number Here"

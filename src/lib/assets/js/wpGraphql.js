@@ -1,4 +1,5 @@
 import { postsPerPage, wpGraphqlEndpoint } from "$lib/setup/config.json";
+import {GRAPH_QL as private_env} from '$env/static/private'
 
 const wpGraphql = async ({
   query_id,
@@ -21,7 +22,8 @@ const wpGraphql = async ({
 			}
 		}
 		`;
-    const resCursors = fetch(wpGraphqlEndpoint + "?query=" + queryCursor)
+    // wpGraphqlEndpoint
+    const resCursors = fetch( private_env + "?query=" + queryCursor)
       .then(function (response) {
         return response.json();
       })
@@ -244,3 +246,15 @@ const wpGraphql = async ({
 };
 
 export default wpGraphql;
+
+
+// Possible graphql function? 
+
+// export async function getGraphqlPostsByCategory(category, offset) {
+//   const data = await wpGraphql({
+//     query_id: "posts",
+//     category: category,
+//     offset: offset,
+//   });
+//   return data.data.posts.edges;
+// }
